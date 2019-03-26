@@ -12,9 +12,6 @@ while intro == "0":
     print("Do you analyse current folder? \n [1] Yes, use same folder as this .py \n [2] No, I wish to input directory \n [3] Help")
     rename = input()
     if rename == "1":
-
-
-
         intro = "1"
     elif rename == "2":
         print("Paste your desired file directory here:")
